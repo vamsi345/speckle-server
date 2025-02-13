@@ -2,7 +2,7 @@
 ARG NODE_ENV=production
 ARG SPECKLE_SERVER_VERSION=custom
 # build stage
-FROM node:18-bullseye-slim@sha256:0a35c023e8b2a44e5c6a22714eb13b45d9c26307a13083aec99676f7c04e4f4d as build-stage
+FROM node:18-bullseye-slim@sha256:5e41a076b616ba41f44a8fc4f9df4dba7d0ff04df72c8845596517e1ff42d390 as build-stage
 ARG NODE_ENV
 ARG SPECKLE_SERVER_VERSION
 
